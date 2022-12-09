@@ -46,6 +46,7 @@ h1 {
  .container {
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 10px;
  }
 
  .description {
@@ -56,9 +57,4 @@ h1 {
 
  .container img {
     width: 500px;
- }
-
- button {
-    background-color: rgb(189, 196, 255);
-    padding: 8px;
  }
