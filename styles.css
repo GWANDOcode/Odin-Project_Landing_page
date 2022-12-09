@@ -10,7 +10,8 @@
 /* ----- HEADER ------ */
 /* --- TOP BAR --- */
 
-.top-bar {
+.top-bar,
+.container {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -43,8 +44,21 @@ h1 {
 /* --- CONTAINER --- */
 
  .container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+
+ .description {
+    flex: 1 0 500px;
+    max-width: 800px;
+    margin-bottom: 20px;
  }
 
  .container img {
     width: 500px;
+ }
+
+ button {
+    background-color: rgb(189, 196, 255);
+    padding: 8px;
  }
