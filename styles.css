@@ -108,10 +108,11 @@ h3 {
     gap: 3px;
     margin: auto;
     max-width: 50%;
+    min-width: 400px;
     color: aliceblue;
 }
 
-.color {
+.lyric_color {
     box-sizing: content-box;
     background-color: rgb(58, 78, 196);
     padding: 120px;
@@ -129,4 +130,47 @@ h3 {
     font-style: italic;
 }
 
+/* ----- Bandit -----*/
+.color_bandit {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bandit {
+    margin: 120px;
+    background-color: beige;
+    display: flex;
+    font-weight: 300;
+    gap: 20px;
+    padding: 40px;
+    border-radius: 12px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cash {
+    flex: 1 0 370px;
+}
+
+.cash p {
+    margin: 0;
+}
+
+.money {
+    font-weight: 600;
+}
+
+.data {
+    font-size: 15px;
+}
+
+button {
+    flex-shrink: 0;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 20px;
+    font-weight: 700;
+}
 
