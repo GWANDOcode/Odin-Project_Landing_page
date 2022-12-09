@@ -131,7 +131,8 @@ h3 {
 }
 
 /* ----- Bandit -----*/
-.color_bandit {
+.color_bandit,
+.footer {
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -174,3 +175,24 @@ button {
     font-weight: 700;
 }
 
+
+
+/* ----- Footer ----- */
+
+.footer {
+    padding: 30px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover {
+    color: rgb(58, 78, 196);
+    background-color: beige;
+}
+
+button:hover {
+    background-color: rgb(58, 78, 196);
+    color: beige;
+}
