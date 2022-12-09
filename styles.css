@@ -19,11 +19,12 @@
 
 .logo {
     flex: none;
-    height: 80px;
+    height: 45px;
  }
 
 h1 {
     font-weight: 100;
+    font-size: 25px;
 }
 
  .links-right {
@@ -34,13 +35,14 @@ h1 {
  }
 
  .links-right img {
-    width: 40px;
+    width: 45px;
+    border: 2px solid black;
+    padding: 3px;
  }
 
 /* --- CONTAINER --- */
 
  .container {
-    background-color: black;
  }
 
  .container img {
