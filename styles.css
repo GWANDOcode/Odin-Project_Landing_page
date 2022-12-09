@@ -23,11 +23,6 @@
     height: 45px;
  }
 
-h1 {
-    font-weight: 100;
-    font-size: 25px;
-}
-
  .links-right {
     display: flex;
     list-style: none;
@@ -59,4 +54,47 @@ h1 {
     width: 500px;
     border-radius: 18px;
  }
+
+ .header {
+    margin-bottom: 40px;
+ }
+
+/* ----- Songs ----- */
+
+.songs-section {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: content-box;
+    padding-bottom: 60px;
+}
+
+h3 {
+    font-weight: 100;
+    font-size: 20px;
+    margin: 40px;
+}
+
+.songs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.song,
+.song img {
+    width: 250px;
+    border-radius: 13px;
+}
+
+.title {
+    font-size: 15px;
+}
+
+.title_text {
+    font-size: 13px;
+}
 
