@@ -61,12 +61,16 @@
 
 /* ----- Songs ----- */
 
-.songs-section {
-    background-color: black;
-    color: white;
+.songs-section,
+.best_lyric {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.songs-section {
+    background-color: black;
+    color: white;
     box-sizing: content-box;
     padding-bottom: 60px;
 }
@@ -97,4 +101,25 @@ h3 {
 .title_text {
     font-size: 13px;
 }
+
+/* ----- Lyrics ----- */
+
+.best_lyric {
+    gap: 3px;
+    max-width: 50%;
+    margin: 120px auto;
+}
+
+.lyric {
+    font-size: 25px;
+    flex-shrink: 0;
+}
+
+.artist {
+    margin-left: auto;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+}
+
 
