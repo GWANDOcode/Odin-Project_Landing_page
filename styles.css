@@ -106,8 +106,15 @@ h3 {
 
 .best_lyric {
     gap: 3px;
+    margin: auto;
     max-width: 50%;
-    margin: 120px auto;
+    color: aliceblue;
+}
+
+.color {
+    box-sizing: content-box;
+    background-color: rgb(58, 78, 196);
+    padding: 120px;
 }
 
 .lyric {
